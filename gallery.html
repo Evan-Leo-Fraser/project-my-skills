@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<title>Evan Fraser Portfolio :: Index</title>
+	<meta name="description" content="This is the Index page of Evan Fraser's website, who is a PSEO studet at Saint Paul College.">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head> 
+<body>
+	<header>
+		<img class="img-fluid logo" src="images-project/logo.png" alt="Logo" height="120" width="260">
+	</header>
+
+	<nav>
+  		<ul>
+    		<li><a href="index.html">Home</a></li>
+    		<li><a href="resume.html">Resume</a></li>
+    		<li><a href="portfolio.html">Portfolio</a></li>
+    		<li><a href="gallery.html">Gallery</a></li>
+  		</ul>
+	</nav>
+	<main>
+	 <div class="container-fluid">
+	 	<div class="row">
+	 		<div class="col-sm-12">
+	 			<h1>Gallery</h1>
+	 			 	<img class="header-image"src="photos/IMG_2416.jpeg" alt="landscape portrait" height="400" width="1200"> 
+	 			 </div>
+	 			 <blockquote>
+	 			 	<br>
+	 			 	<p>This website features photographs that I have taken of different landscapes.<br>Although I have watched videos on proper angles and techniques when taking photos, I am not a professional. I began to take photogrpahs because I think that they are a wonderful way to look back on memories and experiences.
+					</blockquote>				
+	 			 </div>
+	 		</div>
+			<div class="gallery">
+    			<div class="preview">
+        			<img id="preview" src="photos/IMG_0296.JPG" style="display:block;margin:0 auto;" alt height="600" width="800"/>
+    			</div>
+    			<div class="photos" style="margin:0 auto;text-align:center">
+			        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="photos/IMG_0322.JPG" alt>
+			        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="photos/IMG_1658.jpeg" alt>
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="photos/IMG_1982.jpeg" alt>
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="photos/IMG_1984.jpeg" alt>
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="photos/IMG_2053.jpeg" alt>
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="photos/IMG_2289.jpeg" alt>
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="photos/IMG_2312.jpeg" alt>
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="photos/IMG_2321.jpeg" alt>
+        		</div>
+    		</div>
+    	</div>
+	</div>
+	</main>
+	<hr>
+	<footer>
+		<p><bold>Let's Connect!</bold></p>
+		<div class="container-fluid">
+			<div class="row footer-icons">
+				<div class="col-sm-4">
+					<a href="https://www.linkedin.com/in/evan-fraser-103b56259/" target="_blank">
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+					<p>Check me out on LinkedIn</p>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="https://www.instagram.com/evan.fraser1/" target="_blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<p>Follow me on Instagram</p>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="https://github.com/Evan-Leo-Fraser" target="_blank">
+					<i class="fa fa-github" aria-hidden="true"></i>
+					<p>Check out my Work on GitHub!</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

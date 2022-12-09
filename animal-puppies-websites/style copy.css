@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+i.fa{
+	color: #5F9EA0;
+	font-size: 4em;
+	margin: auto;
+	width:100%;
+	text-align: center;
+	padding-top:10px;
+}
+.home-hero {
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+blockquote{
+	font-size: 1.3em;
+}
+img{
+	display:block;
+	margin:0 auto;
+	border-radius: 30%;
+	border:5px solid #000000;
+}
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	margin: 0;
+	background-color: #3CB371;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	padding: 15px;
+	margin: 0;
+	display: block;
+	background-color: #F5DEB3;
+	
+}
+h1{
+	text-align: center;
+	color: #4682B4;
+}
+nav{
+	display: block;
+	background-color: #FFDAB9;
+	margin-top: 10px;
+	padding-top: 5px;
+	border-top: 4px solid darkgreen;
+	border-bottom: 4px solid darkgreen;
+	font-size: 1.5em;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 0;
+} 
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: orange;
+}
+nav a:hover{
+	color: #BDB76B;
+}
+nav a:active{
+  color: grey;
+}
+/* CSS for Tablets */
+@media only screen and (max-width: 1824px){
+	h1{
+		font-size:2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size:1.5em;
+	}
+}
+
+
+
+
